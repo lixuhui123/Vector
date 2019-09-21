@@ -3,7 +3,7 @@
 #include <stack>
 using namespace std;
 
-int main()
+int mainsa()
 {
 	stack<int> bb;/* 栈 */
 	vector<int> a;
@@ -24,6 +24,8 @@ int main()
 	vector<int>::reverse_iterator ri;
 	for (fi=a.begin();fi!=a.end();fi++)
 	{
+		/* 迭代器是一个指针，但它的++或者--跳过的字节数不同，根据用户声明的数据类型
+		大小来自增*/
 		cout << *fi << ' ';
 	}
 	cout << endl;
