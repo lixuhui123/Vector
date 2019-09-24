@@ -36,6 +36,12 @@
     <ClCompile Include="电话号码组合.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="最大连续子串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="vector.h">
