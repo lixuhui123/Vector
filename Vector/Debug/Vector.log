@@ -1,2 +1,6 @@
-﻿  最大连续子串.cpp
+﻿  vector.cpp
+e:\bite learn\vector\vector\vector.h(63): warning C4018: “<”: 有符号/无符号不匹配
+  e:\bite learn\vector\vector\vector.h(43): note: 编译 类 模板 成员函数 "void work::Vector<int>::reserve(size_t)" 时
+  e:\bite learn\vector\vector\vector.h(26): note: 参见对正在编译的函数 模板 实例化“void work::Vector<int>::reserve(size_t)”的引用
+  e:\bite learn\vector\vector\vector.cpp(43): note: 参见对正在编译的 类 模板 实例化 "work::Vector<int>" 的引用
   Vector.vcxproj -> E:\bite learn\Vector\Debug\Vector.exe

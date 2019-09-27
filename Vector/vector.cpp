@@ -1,10 +1,14 @@
 #include <iostream>
 #include <vector>
 #include <stack>
+#include "vector.h"
 using namespace std;
-
-int mainsa()
+using namespace work;
+int main()
 {
+#if 0
+
+
 	stack<int> bb;/* ջ */
 	vector<int> a;
 	vector<int> b(10,6);
@@ -35,6 +39,15 @@ int mainsa()
 	}
 	cout << endl;
 	cout << a.capacity()<<endl;
+#else
+	work::Vector<int> v(10,6);
+	Vector<int>::iterator fi;
+	for (fi=v.begin();fi!=v.end();++fi)
+	{
+		cout << *fi << ' ';
+	}
+
+#endif
 	system("pause"); 
 	return 0;
 }
