@@ -4,7 +4,7 @@
 #include "vector.h"
 using namespace std;
 using namespace work;
-int main()
+int mainfs()
 {
 #if 0
 
